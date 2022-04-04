@@ -1,0 +1,31 @@
+#soggy {
+  width:750px;
+  HEIGHT:1150px;
+  BACKGROUND-COLOR: BLACK;
+  }
+
+p {
+  font-size: 40px;
+  color: white;
+  }
+
+body {
+  background-color: black;
+}
+
+.snerp {
+  width: 120px;
+  height: 40px;
+  display: block;
+  background-color: yellow;
+  text-align: center;
+  color: blue;
+  text-decoration: none;
+  margin:0 auto;
+}
+
+.snerp:hover{
+  color: yellow;
+  background-color: blue;
+  }
+
