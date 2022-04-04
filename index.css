@@ -11,7 +11,7 @@ p {
 
 body {
   background-color: black;
-}
+  }
 
 .snerp {
   width: 120px;
@@ -22,7 +22,7 @@ body {
   color: blue;
   text-decoration: none;
   margin:0 auto;
-}
+  }
 
 .snerp:hover{
   color: yellow;
