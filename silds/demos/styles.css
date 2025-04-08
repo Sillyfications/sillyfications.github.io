@@ -1,0 +1,139 @@
+.border {
+  border-top:
+    #808080;
+  border-top-width: medium;
+  border-top-style: none;
+  border-bottom:
+    #282E22;
+  border-bottom-width: medium;
+  border-bottom-style: none;
+  border-left:
+    #808080;
+  border-left-width: medium;
+  border-left-style: none;
+  border-right:
+    #282E22;
+  border-right-width: medium;
+  border-right-style: none;
+  border-width:
+    1px;
+  border-style:
+    solid;
+  color: white;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #4C5844;
+}
+
+body {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.content {
+  border-bottom:
+    #808080;
+  border-bottom-width: medium;
+  border-bottom-style: none;
+  border-top:
+    #282E22;
+  border-top-width: medium;
+  border-top-style: none;
+  border-right:
+    #808080;
+  border-right-width: medium;
+  border-right-style: none;
+  border-left:
+    #282E22;
+  border-left-width: medium;
+  border-left-style: none;
+  border-width:
+    1px;
+  border-style:
+    solid;
+  color: white;
+
+  background-color: #3E4637;
+
+
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin-top: 5px;
+}
+
+body {
+  font-family: Arial;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.border-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30px;
+}
+
+.top-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.ui-table {
+  border-bottom:
+    #282E22;
+  border-bottom-width: medium;
+  border-bottom-style: none;
+  border-top: #808080;
+
+  border-top-width: medium;
+  border-top-style: none;
+  border-right:
+    #282E22;
+  border-right-width: medium;
+  border-right-style: none;
+  border-left:
+    #808080;
+  border-left-width: medium;
+  border-left-style: none;
+  border-width:
+    1px;
+  border-style:
+    solid;
+  color: white;
+
+  background-color: #4c5844;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+html{
+  background-color: #3E4637;
+}
+
+#browser-end{
+  margin-bottom: 300px;
+}

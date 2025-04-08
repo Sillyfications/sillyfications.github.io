@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SilDS Demo Recordings</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="https://sillyfications.github.io/images/snerp_icon.png">
+</head>
+
+<body onload="openTab()">
+    <div class="border">
+        <div class="top-flex">
+            <div class="border-flex">
+                <img src="demos-content/icon.png" alt="Storage Room Recordings icon" class="logo" title="Demo Browser for recorded Storage Room recordings" />
+                <p>Recorded Demos</p>
+            </div>
+            <div class="buttons">
+                <a href="#info-start">
+                    <input type="image" src="demos-content/info.png" alt="Information"  title="For information on how to run the demos"/>
+                </a>
+                
+                <a href="#demos-end">
+                    <input type="image" src="demos-content/browser_end.png" alt="Down"  title="Go to the end of the demo browser"/>
+                </a>
+                
+                
+                <input type="image" src="demos-content/x-button.png" alt="Close" onclick="closeTab()" title="Close the demo browser"/>
+
+
+            </div>
+            
+        </div>
+
+        <div class="content">
+            <table>
+                <tr>
+                    <td class="ui-table">Recordings (5)</td>
+                    <td class="ui-table">Game</td>
+                    <td class="ui-table">Map</td>
+                    <td class="ui-table">Max Players</td>
+                    <td class="ui-table">Recording Date</td>
+                    <td class="ui-table">Link</td>
+                    <td class="ui-table">Description</td>
+
+
+                </tr>
+                <tr>
+                    <td>Open Fortress test demo</td>
+                    <td>Open Fortress</td>
+                    <td>duel_mulholland</td>
+                    <td>2</td>
+                    <td>06/04/2025 - 23:24</td>
+                    <td><a href="demos-content/recordings/open_fortress_test.dem">Download</a></td>
+                    <td>Test demo recording, recorded client side</td>
+
+                </tr>
+                <tr>
+                    <td>Open Fortress test demo</td>
+                    <td>Open Fortress</td>
+                    <td>duel_mulholland</td>
+                    <td>2</td>
+                    <td>06/04/2025 - 23:24</td>
+                    <td><a href="demos-content/recordings/open_fortress_test.dem">Download</a></td>
+                    <td>Test demo recording, recorded client side</td>
+
+                </tr>
+                <tr>
+                    <td>Open Fortress test demo</td>
+                    <td>Open Fortress</td>
+                    <td>duel_mulholland</td>
+                    <td>2</td>
+                    <td>06/04/2025 - 23:24</td>
+                    <td><a href="demos-content/recordings/open_fortress_test.dem">Download</a></td>
+                    <td>Test demo recording, recorded client side</td>
+
+                </tr>
+                <tr>
+                    <td>Open Fortress test demo</td>
+                    <td>Open Fortress</td>
+                    <td>duel_mulholland</td>
+                    <td>2</td>
+                    <td>06/04/2025 - 23:24</td>
+                    <td><a href="demos-content/recordings/open_fortress_test.dem">Download</a></td>
+                    <td>Test demo recording, recorded client side</td>
+
+                </tr>
+                <tr>
+                    <td>Open Fortress test demo</td>
+                    <td>Open Fortress</td>
+                    <td>duel_mulholland</td>
+                    <td>2</td>
+                    <td>06/04/2025 - 23:24</td>
+                    <td><a href="demos-content/recordings/open_fortress_test.dem">Download</a></td>
+                    <td>Test demo recording, recorded client side</td>
+
+                </tr>
+
+            </table>
+
+            
+
+        </div>
+        <p id="browser-end">End of demo browser reached.</p>
+
+        <b id="info-start">Information about how to run demos:</b>
+        <ul>
+            <li>Acquiring the .dem file.</li>
+            <p>Simply press on the download button. All content is hosted on Google Drive, you will get redirected there to start the download.</p>
+            <li>Placing the .dem file in the correct directory</li>
+            <p>For Steam games, place the .dem file in the game directory folder (TF2 example: steam/steamapps/common/team fortress 2/tf)</p>
+            <P>For Sourcemods like Open Fortress, the game directory is different than normal Steam games (OF example: steam/steamapps/sourcemods/open_fortress)</P>
+            <li>Running the demo</li>
+            <p>Boot up the game and open the console. Type the command `playdemo [name]`. Change the [name] part with the filename of the demo you just downloaded, and press enter.</p>
+            <p style="margin-bottom: 50px;">Wait for the game to load the demo. It should be automatically playing it back. If you need demo controls, type in console `demoui` and a small window should pop up.</p>
+
+        </ul>
+
+        <b>Which games are recorded?</b>
+        <ul>
+            <li>Server recording available (enabled games):</li>
+            <p>None currently</p>
+            <li>Client recording available (limited games):</li>
+            <p>Open Fortress</p>
+            <li>Not recorded (disabled games):</li>
+            <p>Team Fortress 2 Classic</p>
+        </ul>
+
+    </div>
+
+    <script>
+        function closeTab() {
+            window.close();
+        }
+
+        // firefox wont close the tab if it was opened by a script, good for security reasons, but not when we want to mimic a window on a desktop or something
+        // open one tab, after that dont do anything
+        //the downside is that it will show a pop-up, some users might have them disabled.
+        function openTab() {
+            let alreadyOpen = false;
+
+            if (window.opener) {
+                const tabs = window.opener.document.querySelectorAll('.border');
+                for (let i = 0; i < tabs.length; i++) {
+                    if (tabs[i].style.display !== 'none') {
+                        alreadyOpen = true;
+                        break;
+                    }
+                }
+            }
+            //window.open('demos.html', '_blank');
+        }
+    </script>
+</body>
+
+</html>
