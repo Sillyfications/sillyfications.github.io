@@ -1,0 +1,21 @@
+{
+    "addons": {
+        "addon_1": {
+            "name": "Project Sillyfied Addon Template",
+            "developer": "Sillyfied Technologies",
+            "tag": "debug",
+            "description": "A simple test for testing the JSON functions of this installer. Do not download this addon, except for testing purposes.",
+            "dependencies": "none",
+            "conflits-with" : "none",
+            "license": "bound to installer",
+            "credits": "none",
+            "date-added": 1758222935,
+            "addon-version": "1.0",
+            "required-mod-version": "1.0.0",
+            "size": "517 bytes",
+            "add-on-verified": "needs-testing",
+            "download-url": "https://sillyfications.github.io/projsil/addons/test-addon.7z",
+            "addon-id" : 1
+        }
+    }
+}
