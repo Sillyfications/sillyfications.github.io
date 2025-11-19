@@ -1,52 +1,103 @@
 {
-    "addons": {
-        "addon_1": {
-            "name": "Project Sillyfied Addon Template",
-            "developer": "Sillyfied Technologies",
-            "tag": "debug",
-            "description": "A simple test for testing the JSON functions of this installer. Do not download this addon, except for testing purposes.",
-            "dependencies": "none",
-            "conflits-with" : "none",
-            "license": "bound to installer",
-            "credits": "none",
-            "date-added": 1758222935,
-            "addon-version": "1",
-            "required-mod-version": "57",
-            "size": "517 bytes",
-            "add-on-verified": "needs-testing",
-            "download-url": "https://sillyfications.github.io/projsil/addons/test-addon.7z",
-        }
-        "addon_2": {
-            "name": "Project Sillyfied Addon Template 2",
-            "developer": "Sillyfied Technologies",
-            "tag": "debug",
-            "description": "Bingo, bango, bongo; bish, bash, bosh.",
-            "dependencies": "none",
-            "conflits-with" : "none",
-            "license": "bound to installer",
-            "credits": "none",
-            "date-added": 1758222935,
-            "addon-version": "1.0",
-            "required-mod-version": "57",
-            "size": "517 bytes",
-            "add-on-verified": "needs-testing",
-            "download-url": "https://sillyfications.github.io/projsil/addons/test-addon.7z",
-        }
-        "addon_1": {
-            "name": "Project Sillyfied Addon Template 3",
-            "developer": "Sillyfied Technologies",
-            "tag": "debug",
-            "description": "Are we rushin' in? Or are we goin' sneeky-peeky like?",
-            "dependencies": "none",
-            "conflits-with" : "none",
-            "license": "bound to installer",
-            "credits": "none",
-            "date-added": 1758222935,
-            "addon-version": "1.0",
-            "required-mod-version": "57",
-            "size": "517 bytes",
-            "add-on-verified": "needs-testing",
-            "download-url": "https://sillyfications.github.io/projsil/addons/test-addon.7z",
-        }
+
+  "addons": {
+
+    "addon_1": {
+
+      "name": "Project Sillyfied Addon Template",
+
+      "developer": "Sillyfied Technologies",
+
+      "tag": "debug",
+
+      "description": "A simple test for testing the JSON functions of this installer. Do not download this addon, except for testing purposes.",
+
+      "dependencies": "none",
+
+      "conflits-with": "none",
+
+      "license": "bound to installer",
+
+      "credits": "none",
+
+      "date-added": 1758222935,
+
+      "addon-version": "1",
+
+      "required-mod-version": "57",
+
+      "size": "517 bytes",
+
+      "add-on-verified": "needs-testing",
+
+      "download-url": "https://sillyfications.github.io/projsil/addons/test-addon.7z"
+
+    },
+
+    "addon_2": {
+
+      "name": "Project Sillyfied Addon Template 2",
+
+      "developer": "Sillyfied Technologies",
+
+      "tag": "debug",
+
+      "description": "Bingo, bango, bongo; bish, bash, bosh.",
+
+      "dependencies": "none",
+
+      "conflits-with": "none",
+
+      "license": "bound to installer",
+
+      "credits": "none",
+
+      "date-added": 1758222935,
+
+      "addon-version": "1.0",
+
+      "required-mod-version": "57",
+
+      "size": "517 bytes",
+
+      "add-on-verified": "needs-testing",
+
+      "download-url": "https://sillyfications.github.io/projsil/addons/test-addon.7z"
+
+    },
+
+    "addon_3": {
+
+      "name": "Project Sillyfied Addon Template 3",
+
+      "developer": "Sillyfied Technologies",
+
+      "tag": "debug",
+
+      "description": "Are we rushin' in? Or are we goin' sneeky-peeky like?",
+
+      "dependencies": "none",
+
+      "conflits-with": "none",
+
+      "license": "bound to installer",
+
+      "credits": "none",
+
+      "date-added": 1758222935,
+
+      "addon-version": "1.0",
+
+      "required-mod-version": "57",
+
+      "size": "517 bytes",
+
+      "add-on-verified": "needs-testing",
+
+      "download-url": "https://sillyfications.github.io/projsil/addons/test-addon.7z"
+
     }
+
+  }
+
 }
