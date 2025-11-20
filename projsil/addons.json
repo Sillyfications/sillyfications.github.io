@@ -47,6 +47,55 @@
 			"size": "350 kilobytes",
 			"add-on-verified": "out-of-date",
 			"download-url": "https://sillyfications.github.io/projsil/addons/test-addon.7z"
-		}
+		},
+		"addon_4": {
+            "name": "Full-Life 3",
+            "developer": "Faucet Software",
+            "tag": "Campaign",
+            "description": "Files for the Full-Life 3 campaign, currently not bootable right now, but tomorrow.",
+            "dependencies": "Stream 2 engine plugin",
+            "conflits-with": "Full-Life 1, Full-Life 2, Full-Life 2 Episode 1, Full-Life 2 Episode 2",
+            "license": "do-not-redist",
+            "credits": "web://faucet.software/fl3/devs",
+            "date-added": 1858222935,
+            "addon-version": "948",
+            "required-mod-version": "latest",
+            "size": "75 gigabytes",
+            "add-on-verified": "compatible",
+            "download-url": "https://sillyfications.github.io/projsil/addons/test-addon.7z"
+        },
+		"addon_5": {
+            "name": "Stream 2 engine plugin",
+            "developer": "Faucet Software",
+            "tag": "plugin",
+            "description": "Plugin for interfacing with Stream 2 engine games to ProjSil",
+            "dependencies": "none",
+            "conflits-with": "none",
+            "license": "do-not-redist",
+            "credits": "web://faucet.software/stream2-projsil/devs",
+            "date-added": 1855222935,
+            "addon-version": "build 67103",
+            "required-mod-version": "latest",
+            "size": "1,4 gigabytes",
+            "add-on-verified": "compatible",
+            "download-url": "https://sillyfications.github.io/projsil/addons/test-addon.7z"
+        },
+		"addon_6": {
+            "name": "NUKES and BOMBS",
+            "developer": "The Resistance",
+            "tag": "plugin",
+            "description": "Adds BOMBS. Fun!",
+            "dependencies": "none",
+            "conflits-with": "none",
+            "license": "copy-left",
+            "credits": "me!",
+            "date-added": 1855226735,
+            "addon-version": "6",
+            "required-mod-version": "latest",
+            "size": "8,4 megabytes",
+            "add-on-verified": "compatible",
+            "download-url": "https://sillyfications.github.io/projsil/addons/test-addon.7z"
+        }
+
 	}
 }
