@@ -1,10 +1,10 @@
 {
     "addons": {
         "addon_1": {
-            "name": "Project Sillyfied Addon Template",
-            "developer": "Sillyfied Technologies",
-            "tag": "debug",
-            "description": "A simple test for testing the JSON functions of this installer. Do not download this addon, except for testing purposes.",
+            "name": "Garrisons' Modification",
+            "developer": "Headkick Studios",
+            "tag": "gamemode",
+            "description": "A sandbox type gamemode. We give you the tools, you create something with it.",
             "dependencies": "none",
             "conflits-with": "none",
             "license": "bound to installer",
