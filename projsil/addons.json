@@ -59,7 +59,7 @@
             "credits": "web://faucet.software/fl3/devs",
             "date-added": 1858222935,
             "addon-version": "948",
-            "required-mod-version": "latest",
+            "required-mod-version": "60",
             "size": "75 gigabytes",
             "add-on-verified": "compatible",
             "download-url": "https://sillyfications.github.io/projsil/addons/test-addon.7z"
@@ -74,8 +74,8 @@
             "license": "do-not-redist",
             "credits": "web://faucet.software/stream2-projsil/devs",
             "date-added": 1855222935,
-            "addon-version": "build 67103",
-            "required-mod-version": "latest",
+            "addon-version": "67103",
+            "required-mod-version": "60",
             "size": "1,4 gigabytes",
             "add-on-verified": "compatible",
             "download-url": "https://sillyfications.github.io/projsil/addons/test-addon.7z"
@@ -91,7 +91,7 @@
             "credits": "me!",
             "date-added": 1855226735,
             "addon-version": "6",
-            "required-mod-version": "latest",
+            "required-mod-version": "60",
             "size": "8,4 megabytes",
             "add-on-verified": "compatible",
             "download-url": "https://sillyfications.github.io/projsil/addons/test-addon.7z"
