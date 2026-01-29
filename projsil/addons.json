@@ -15,6 +15,22 @@
 			"size": "53 kilobytes",
 			"add-on-verified": "works (tested on 51)",
 			"download-url": "https://sillyfications.github.io/projsil/addons/tf2-killsound.7z"
+		},
+		"addon_2": {
+			"name": "Crack-Life ambiences",
+			"developer": "thehiddenone",
+			"tag": "sounds",
+			"description": "Adds Crack-Life ambience sounds to Project Sillyfied, modified to add more sounds.",
+			"dependencies": "none",
+			"conflits-with": "none",
+			"license": "do-not-redist",
+			"credits": "International Minds for Crack-Life",
+			"date-added": 1769706531,
+			"addon-version": "1",
+			"required-mod-version": "76",
+			"size": "20,5 megabytes",
+			"add-on-verified": "not-tested",
+			"download-url": "https://sillyfications.github.io/projsil/addons/crack-life_sfx.7z"
 		}
 	}
 }
